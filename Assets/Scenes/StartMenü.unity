@@ -340,7 +340,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1492001734}
+      - m_Target: {fileID: 1492001735}
         m_TargetAssemblyTypeName: "StartMen\xFC, Assembly-CSharp"
         m_MethodName: OnPlayButton
         m_Mode: 1
@@ -876,6 +876,7 @@ GameObject:
   - component: {fileID: 1492001731}
   - component: {fileID: 1492001730}
   - component: {fileID: 1492001734}
+  - component: {fileID: 1492001735}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -980,6 +981,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e6350625f0e56340bbae8fdd83086a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1492001735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492001729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb4a6e4f6583f645b8a96bf207dfea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019708789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1076,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1492001734}
+      - m_Target: {fileID: 1492001735}
         m_TargetAssemblyTypeName: "StartMen\xFC, Assembly-CSharp"
         m_MethodName: OnQuitButton
         m_Mode: 1
